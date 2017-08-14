@@ -1,5 +1,7 @@
 <?php
 /**
+ *  Author: Rex Valkering
+ *
  *  Main application
  */
 require_once('include/includes.php');
@@ -27,7 +29,7 @@ require_once('include/includes.php');
 <script src="js/functions.js"></script>
 
 <input type="hidden" id="graph-height" value="<?php echo GRAPH_HEIGHT; ?>" />
-<input type="hidden" id="graph-width" value="<?php echo GRAPH_HEIGHT; ?>" />
+<input type="hidden" id="graph-width" value="<?php echo GRAPH_WIDTH; ?>" />
 
 <h3>Voeg een koppel toe</h3>
 <form action="app/addedge.php" method="POST">
